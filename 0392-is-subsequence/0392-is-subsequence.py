@@ -7,11 +7,7 @@ class Solution:
             return True
         elif len(t)==0:
             return False
-        elif len(s)==1 and len(t)==1:
-            if s[0]==t[0]:
-                return True
-            else:
-                return False
+        
         while 1:
             if i>len(s)-1:
                 result=1
